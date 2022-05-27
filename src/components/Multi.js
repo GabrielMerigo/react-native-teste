@@ -6,8 +6,8 @@ export default function Comp() {
     return <Text>Comp #Oficial</Text>
 }
 
-function Comp1() {
-    return <Text>Comp #1</Text>
+function Comp1(props) {
+    return <Text style={props.large}>Comp #1</Text>
 }
 
 function Comp2() {
