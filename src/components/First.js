@@ -5,6 +5,6 @@ const App = () => {
     return(
         <Text>First!!</Text>
     )
-} 
+}
 
 export default App
