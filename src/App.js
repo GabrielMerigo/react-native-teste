@@ -1,11 +1,11 @@
 import React from "react"; // Sempre quando tivermos JSX em nosso código nós precisamos ter essa variavel React
-import { View, StyleSheet, SafeAreaView } from "react-native";
-import MinMax from './components/MinMax'
+import { StyleSheet, SafeAreaView } from "react-native";
+import FlatList from './components/FlatList'
 
 export default function App(){
     return (
         <SafeAreaView style={S.app}>
-            <MinMax />
+            <FlatList />
         </SafeAreaView>
     )
 }
